@@ -1,0 +1,27 @@
+<header class="site-header logo" role="banner">
+  <!-- By Lasse Diercks https://codepen.io/lassediercks/pen/ExVerLw -->
+  <h1 id="title" class="hover slow">
+    <span class="letter s">A</span>
+    <span class="letter m">n</span>
+    <span class="letter l">y</span>
+    <span class="letter xl">h</span>
+    <span class="letter xxl">u</span>
+    <span class="letter xxl">n</span>
+    <span class="letter xl">t</span>
+    <span class="letter l">e</span>
+    <span class="letter m">r</span>
+    <span class="letter s">s</span>
+  </h1>
+  <h2>Understand and tame <code>any</code>-thing</h2>
+
+  <script type="text/javascript">
+    setTimeout(() => {
+      const title = document.getElementById("title");
+      const dur = parseFloat(getComputedStyle(title).transitionDuration) * 1000;
+      title.classList.remove("hover");
+      setTimeout(() => {
+        title.classList.remove("slow");
+      }, dur);
+    }, 1000);
+  </script>
+</header>

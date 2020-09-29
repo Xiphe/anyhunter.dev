@@ -1,0 +1,29 @@
+@font-face {
+  font-family: "Oswald";
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(/assets/fonts/Oswald400_Latin.woff2) format("woff2");
+}
+
+body {
+  font-family: Oswald, sans-serif;
+  background: black;
+  color: white;
+}
+
+a {
+  color: #c92926;
+  text-decoration: underline;
+  &:visited {
+    color: #ac0d17;
+  }
+  &:hover,
+  &:focus {
+    color: red;
+  }
+}
+
+.text-center {
+  text-align: center;
+}

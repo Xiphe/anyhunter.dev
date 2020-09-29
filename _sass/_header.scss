@@ -1,0 +1,112 @@
+@font-face {
+  font-family: "AHO";
+  font-style: normal;
+  font-weight: 200;
+  font-display: block;
+  src: url(/assets/fonts/aho200.woff2) format("woff2");
+}
+@font-face {
+  font-family: "AHO";
+  font-style: normal;
+  font-weight: 300;
+  font-display: block;
+  src: url(/assets/fonts/aho300.woff2) format("woff2");
+}
+@font-face {
+  font-family: "AHO";
+  font-style: normal;
+  font-weight: 400;
+  font-display: block;
+  src: url(/assets/fonts/aho400.woff2) format("woff2");
+}
+@font-face {
+  font-family: "AHO";
+  font-style: normal;
+  font-weight: 600;
+  font-display: block;
+  src: url(/assets/fonts/aho600.woff2) format("woff2");
+}
+@font-face {
+  font-family: "AHO";
+  font-style: normal;
+  font-weight: 700;
+  font-display: block;
+  src: url(/assets/fonts/aho700.woff2) format("woff2");
+}
+
+.logo {
+  font-size: 4.5vw;
+  line-height: 1.4em;
+  margin: 0;
+  background-color: rgba(255, 255, 255, 1);
+  color: white;
+  font-feature-settings: "kern" on;
+  -moz-font-feature-settings: "kern" on;
+  -webkit-font-feature-settings: "kern" on;
+  -ms-font-feature-settings: "kern" on;
+  -o-font-feature-settings: "kern" on;
+  text-align: center;
+  background: black;
+  border: none;
+
+  .top {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    text-align: center;
+  }
+
+  h1 {
+    margin: calc(50vh - 0.4em) 0 0;
+    font-family: "AHO";
+    white-space: nowrap;
+    text-transform: uppercase;
+    transition: letter-spacing 1500ms ease-in-out;
+    height: 0.8em;
+  }
+  h2 {
+    font-size: 1rem;
+    code {
+      font-size: 0.9rem;
+      border: none;
+      position: relative;
+      top: -1px;
+      color: #ac0d17;
+    }
+  }
+
+  .letter {
+    font-variation-settings: "wght" 100, "wdth" 100;
+    transition: font-variation-settings 1500ms ease-in;
+  }
+
+  h1.slow,
+  h1.slow .letter {
+    transition-duration: 5000ms;
+  }
+
+  h1:hover,
+  h1.hover {
+    letter-spacing: 5px;
+
+    .s {
+      font-variation-settings: "wght" 200, "wdth" 100;
+    }
+
+    .m {
+      font-variation-settings: "wght" 300, "wdth" 100;
+    }
+
+    .l {
+      font-variation-settings: "wght" 450, "wdth" 100;
+    }
+
+    .xl {
+      font-variation-settings: "wght" 700, "wdth" 100;
+    }
+
+    .xxl {
+      font-variation-settings: "wght" 900, "wdth" 100;
+    }
+  }
+}
