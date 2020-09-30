@@ -18,8 +18,8 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-title: Anyhunters
-email: anyhunters@xiphe.net
+title: Anyhunter
+email: anyhunter@xiphe.net
 description: >- # this means to ignore newlines until "baseurl:"
   Understand and tame `any`-thing
 baseurl: ""
