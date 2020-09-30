@@ -22,8 +22,8 @@ title: Anyhunters
 email: anyhunters@xiphe.net
 description: >- # this means to ignore newlines until "baseurl:"
   Understand and tame `any`-thing
-baseurl: "" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site, e.g. http://example.com
+baseurl: ""
+url: "https://anyhunters.dev"
 twitter_username: XipheHH
 github_username: Xiphe
 twitter:
